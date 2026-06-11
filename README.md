@@ -36,8 +36,10 @@ https://drive.google.com/file/d/1VTlT3Y7e1h-Zsne4zahjx5q0TK2ClMVv/view?usp=shari
 ### Environment
 Python3.9 and Pytorch 1.12.1
 Install torch
-```conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
+```
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
 ```
 ### Train
-```python train.py
+```
+python train.py
 ```
