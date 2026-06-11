@@ -1,0 +1,16 @@
+train_depth: /home/liu/zjr/zjr_ultralytics_two_stream/datasets/LLVIP/train/depth
+val_depth: /home/liu/zjr/zjr_ultralytics_two_stream/datasets/LLVIP/val/depth
+test_depth: /home/liu/zjr/zjr_ultralytics_two_stream/datasets/LLVIP/test/depth
+train_rgb: /home/liu/zjr/zjr_ultralytics_two_stream/datasets/LLVIP/train/images
+val_rgb: /home/liu/zjr/zjr_ultralytics_two_stream/datasets/LLVIP/val/images
+test_rgb: /home/liu/zjr/zjr_ultralytics_two_stream/datasets/LLVIP/test/images
+names:
+  0: person
+nc: 1
+
+roboflow:
+  workspace: box-snacks
+  project: YOLO-10000-18-box
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/box-snacks/YOLO-10000-18-box/dataset/3
